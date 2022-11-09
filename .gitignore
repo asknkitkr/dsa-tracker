@@ -1,7 +1,8 @@
-node_modules# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
+/FINAL450.xlsx
 /.pnp
 .pnp.js
 
@@ -13,6 +14,7 @@ node_modules# See https://help.github.com/articles/ignoring-files/ for more abou
 
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local

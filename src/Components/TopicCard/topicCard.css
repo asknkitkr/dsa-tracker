@@ -1,0 +1,59 @@
+.container-custom {
+  overflow-y: scroll;
+  height: 64vh;
+}
+.container::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+.container::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255); /* color of the tracking area */
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: rgba(54, 54, 54, 0.466); /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: 3px solid rgba(78, 78, 78, 0.452); /* creates padding around scroll thumb */
+}
+.inprogress-card {
+  background-color: #8dfeb3;
+  border-radius: 0;
+  border: 1px solid #0ac400;
+  height: 90%;
+}
+
+.totalQuestion {
+  color: #4f4f4f;
+  font-weight: 700;
+}
+.notstarted-card {
+  background-color: #d6e9ff;
+  border-radius: 0px;
+  border: 1px solid #000;
+  height: 90%;
+}
+
+.percentDone {
+  color: #4f4f4f;
+}
+
+.container-custom2 {
+  width: 40vw;
+  min-width: 290px !important;
+}
+
+@media screen and (max-height: 650px) {
+  .container-custom {
+    height: 56vh;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .container-custom {
+    height: 54vh;
+  }
+}
+
+.bdge {
+  border-radius: 0;
+  background-color: black;
+  padding: 0.5rem 2rem;
+}
