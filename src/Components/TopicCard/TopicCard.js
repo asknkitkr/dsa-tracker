@@ -1,9 +1,6 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import ProgressBar from "react-bootstrap/ProgressBar";
-import Badge from "react-bootstrap/Badge";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Card, Row, Col, Badge, Container, ProgressBar } from "react-bootstrap";
+
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 
@@ -127,16 +124,12 @@ export default function TopicCard({ questionData }) {
 
   return (
     <>
-      <div className="container pt-4 text-center">
-        <h1 className="fw-bold display-1">Let's Get Started</h1>
+      <Container className="pt-4 text-center">
+        <h1 className="fw-bold display-1 ">Let's Get Started</h1>
         <h3 className="display-5">
           Your gateway to crack <strong>Data Structures and Algorithms</strong>
         </h3>
-
-        <h5 className="display-5 fw-bold p-3">
-          <strong>start solving now ... </strong>
-        </h5>
-      </div>
+      </Container>
 
       <h4 className="text-center mb-4">
         {totalSolved
@@ -144,7 +137,7 @@ export default function TopicCard({ questionData }) {
               (totalSolved / totalQuestions) *
               100
             ).toFixed(2)}% Done)`
-          : "Start Solving"}
+          : "start solving now..."}
         <p className="percentDone container mt-1">
           {totalSolved ? (
             <ProgressBar

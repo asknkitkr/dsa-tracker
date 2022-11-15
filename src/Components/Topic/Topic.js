@@ -1,19 +1,21 @@
 import React, { useState, useEffect } from "react";
 import BootstrapTable from "react-bootstrap-table-next";
 import ToolkitProvider from "react-bootstrap-table2-toolkit";
-import InputGroup from "react-bootstrap/InputGroup";
-import FormControl from "react-bootstrap/FormControl";
-import Spinner from "react-bootstrap/Spinner";
-import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import Tooltip from "react-bootstrap/Tooltip";
-import Badge from "react-bootstrap/Badge";
+import {
+  Button,
+  InputGroup,
+  FormControl,
+  Spinner,
+  OverlayTrigger,
+  Tooltip,
+  Badge,
+} from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 import "./Topic.css";
-import Button from "react-bootstrap/Button";
 
 export default function Topic({ data, updateData }) {
   const [select, setSelected] = useState([]);
