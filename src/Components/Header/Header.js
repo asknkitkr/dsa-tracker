@@ -9,9 +9,14 @@ const Header = () => {
           <a href="/" className="navbar-brand">
             <img src={Logo} alt="DSA Tracker" width="150px" />
           </a>
-          <a href="/settings" className="btn btn-sm btn-dark">
-            Settings
-          </a>
+          <div>
+            <a href="/tutorials" className="btn btn-sm btn-dark mr-2">
+              Tutorials
+            </a>
+            <a href="/settings" className="btn btn-sm btn-dark">
+              Settings
+            </a>
+          </div>
         </div>
       </nav>
     </>

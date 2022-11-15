@@ -100,6 +100,7 @@ function App() {
                 ></Settings>
               }
             />
+            <Route path="/tutorials" />
 
             {/* TOPIC ROUTE */}
             <Route
