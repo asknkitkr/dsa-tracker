@@ -15,6 +15,7 @@ import Settings from "./Components/Settings/Settings";
 import ReactGA from "react-ga";
 import "./App.css";
 import Header from "./Components/Header/Header";
+import Tutorials from "./Components/Tutorials/Tutorials";
 
 function App() {
   const [questionData, setquestionData] = useState([]);
@@ -83,12 +84,12 @@ function App() {
           </div>
         ) : (
           <>
-            {/* HOME AND ABOUT ROUTE */}
             <Route
               exact
               path="/"
               children={<TopicCard questionData={questionData}></TopicCard>}
             />
+            <Route path="/tutorials" children={<Tutorials />} />
             <Route
               path="/settings"
               children={
@@ -100,7 +101,6 @@ function App() {
                 ></Settings>
               }
             />
-            <Route path="/tutorials" />
 
             {/* TOPIC ROUTE */}
             <Route
