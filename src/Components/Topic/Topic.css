@@ -29,7 +29,7 @@
 
 /* Marked Incomplete */
 .Toastify__toast.toast-Incomplete {
-  background: #007bff;
+  background: #1e548f;
 }
 
 .Toastify__toast.toast-Incomplete .Toastify__progress-bar {
@@ -114,7 +114,7 @@
   display: none;
   height: 10em;
   width: 10em;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(22, 22, 22, 0.1);
   backdrop-filter: blur(2px);
 
   top: 0;
@@ -125,7 +125,7 @@
 
 #tooltip-top > .tooltip-inner {
   background-color: #fff;
-  color: green;
+  color: rgb(35, 156, 35);
   border: 1px solid #062e56;
 }
 

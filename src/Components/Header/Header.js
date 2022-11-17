@@ -2,18 +2,33 @@ import React from "react";
 import Logo from "./images/logo.svg";
 
 const Header = () => {
+  const style = {
+    btn: {
+      backgroundImage: "linear-gradient(grey,black)",
+              color: "white",
+              fontWeight:"bold",
+             width : "100px"
+    }
+  }
   return (
     <>
-      <nav className="navbar bg-light ">
+      <nav className="navbar navbar-light ">
         <div className="container">
           <a href="/" className="navbar-brand">
-            <img src={Logo} alt="DSA Tracker" width="150px" />
+            <img src={Logo} alt="DSA Tracker" 
+            />
           </a>
           <div>
-            <a href="/tutorials" className="btn btn-sm btn-dark mr-2">
+            <a href="/tutorials" 
+            
+            style={style.btn}
+          className="btn btn-sm btn-dark mr-2">
               Tutorials
+              
             </a>
-            <a href="/settings" className="btn btn-sm btn-dark">
+            <a href="/settings" 
+            style={style.btn}
+            className="btn btn-sm btn-dark">
               Settings
             </a>
           </div>
