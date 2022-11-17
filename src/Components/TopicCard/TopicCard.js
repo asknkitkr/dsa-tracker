@@ -98,8 +98,9 @@ export default function TopicCard({ questionData }) {
                         <Badge
                           variant="primary"
                           className="float-right bdge"
-                          style={{ fontWeight: "500", cursor: "pointer" }}
+                          style={{ fontWeight: "600", cursor: "pointer" ,}}
                         >
+                          
                           Start Now
                         </Badge>
                       </h4>

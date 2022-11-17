@@ -9,30 +9,33 @@
   background: rgb(255, 255, 255); /* color of the tracking area */
 }
 .container::-webkit-scrollbar-thumb {
-  background-color: rgba(54, 54, 54, 0.466); /* color of the scroll thumb */
-  border-radius: 10px; /* roundness of the scroll thumb */
-  border: 3px solid rgba(78, 78, 78, 0.452); /* creates padding around scroll thumb */
+  background-color: rgba(3, 3, 3, 0.466); /* color of the scroll thumb */
+  border-radius: 15px; /* roundness of the scroll thumb */
+  /* border: 3px solid rgba(228, 9, 9, 0.452); creates padding around scroll thumb */
 }
 .inprogress-card {
-  background-color: #8dfeb3;
-  border-radius: 0;
-  border: 1px solid #0ac400;
+
+  background: rgb(0, 255, 149);
+  background: linear-gradient(90deg, rgba(174,238,211,1) 0%, rgba(161,215,222,0) 63%, rgba(148,187,233,1) 100%); 
+  border-radius: 15px;
+ 
   height: 90%;
 }
 
 .totalQuestion {
-  color: #4f4f4f;
+  color: #000000;
   font-weight: 700;
 }
 .notstarted-card {
-  background-color: #d6e9ff;
-  border-radius: 0px;
-  border: 1px solid #000;
+
+  background: rgb(131,143,204);
+  background: radial-gradient(circle, rgba(131,143,204,1) 0%, rgba(224,174,184,1) 100%);
+  border-radius: 17px;
   height: 90%;
 }
 
 .percentDone {
-  color: #4f4f4f;
+  color: #000000;
 }
 
 .container-custom2 {
@@ -53,7 +56,9 @@
 }
 
 .bdge {
-  border-radius: 0;
-  background-color: black;
-  padding: 0.5rem 2rem;
+  
+  background: rgb(22, 22, 22);
+  border-radius:15px 50px;
+   padding: 0.5rem 1.4rem;
 }
+
